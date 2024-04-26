@@ -423,8 +423,9 @@ int main(int argc, char *argv[]) {
     for(int i = 0;i < identifierId;i++) {
         puts(identifierStrings[i]);
     }
-    fclose(preFile);
 
+    //关闭文件读取流
+    fclose(preFile);
     // 释放为指针数组identifierStrings（标识符表）分配的空间
     for(int i = 0;i < 1000;i++) {
         free(identifierStrings[i]);

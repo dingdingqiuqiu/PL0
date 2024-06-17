@@ -76,7 +76,7 @@ typedef enum {
 
 // 定义单词符号结构体
 typedef struct {
-    Category category;  // 单词的种别
+    int category;  // 单词的种别
     int attribute;      // 属性值，可以根据需要选择合适的数据类型
 } Token;
 

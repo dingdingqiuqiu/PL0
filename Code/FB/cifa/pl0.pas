@@ -16,7 +16,7 @@ begin
           f := f * n;
      end;
      test := 1+2-3*4/(5-6)+-7;
-	 t1:=test*2;
-	 t2:=t1+test;
+	t1:=test*2;
+	t2:=t1+test;
      call print;	// print all var
 end.
